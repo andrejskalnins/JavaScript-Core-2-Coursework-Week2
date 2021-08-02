@@ -8,4 +8,9 @@ let people = [
   { name: "Boris", job: "Prime Minister" },
 ];
 
-listOfNames(people);
+listOfNames(
+  people.forEach(
+    (person) =>
+      (content.innerHTML += `<h1>${person.name}</h1> <h2>${person.job}</h2>`)
+  )
+);
