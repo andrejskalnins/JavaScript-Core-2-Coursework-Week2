@@ -151,7 +151,19 @@ body {
 #greenBtn {
   background: #87ca8a;
 }
-
+.bookListStyle {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: calc(100% - 41px);
+}
+.liSizeClass {
+  width: calc(25% - 51px);
+  margin: 15px;
+  padding: 15px;
+  min-width: 350px;
+}
 @media screen and (min-width: 992px) {
   .navbar-brand > img {
     max-height: 80px;
