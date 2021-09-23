@@ -151,6 +151,39 @@ body {
 #greenBtn {
   background: #87ca8a;
 }
+/* Jumbotron Toggle Classes */
+.jumbotron-toggle-blue {
+  background-color: #588fbd;
+}
+.jumbotron-toggle-orange {
+  background-color: #f0ad4e;
+}
+.jumbotron-toggle-green {
+  background-color: #87ca8a;
+}
+/* Donate Button Toggle Classes */
+.donateBtn-toggle-blue {
+  background-color: #ffa500;
+}
+.donateBtn-toggle-orange {
+  background-color: #5751fd;
+}
+.donateBtn-toggle-green {
+  background-color: black;
+  color: white;
+}
+/* Volunteer Button Toggle Classes */
+.volunteerBtn-toggle-blue {
+  background-color: black;
+  color: white;
+}
+.volunteerBtn-toggle-orange {
+  background-color: #31b0d5;
+  color: white;
+}
+.volunteerBtn-toggle-green {
+  background-color: #8c9c08;
+}
 
 @media screen and (min-width: 992px) {
   .navbar-brand > img {
